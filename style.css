@@ -1,0 +1,145 @@
+/*
+Theme Name: Purdue 2014
+Theme URI: http://purdue.edu/students
+Description: Official Purdue University theme developed for WordPress and based on the 2014 web templates designed by Purdue Marketing and Media. Purdue Twenty Fourteen is fully responsive and is based on Twitter Bootstrap v 3.1.0. IMPORTANT - This theme requires the use of the "Advanced Custom Fields" plugin (documentation at http://www.advancedcustomfields.com) for ease of content entry. Please activate it in your plugins direcotry. This theme also includes Bootstrap Nav Walker (https://github.com/twittem/wp-bootstrap-navwalker) for navigation menu functionality. CREATE A MENU NAMED "PRIMARY" (without "") IN ORDER FOR THE NAVIGATION TO FUNCTION PROPERLY. Please follow Purdue Marketing Web Guidelines found at http://www.purdue.edu/marketing/toolkit/web/index.html. To create "colorized" photo effects for banners, buttons, and other Purdue branded assets, please visit http://www.purdue.edu/marketing/toolkit/web/multiplied.html for procedures. It is recommended to use Modern Tribe's "The Events Calendar" plugin found at http://wordpress.org/plugins/the-events-calendar/ for events. This theme also utilizes Font Awesome (http://fortawesome.github.io/Font-Awesome/) and Glyphicons Halflings set, along with the numerous components of Twitter Bootstrap (http://getbootstrap.com/components/).
+Author: James Britton
+Author URI: http://web.ics.purdue.edu/~jbritto
+Version: 1.0
+Tags: Responsive, Bootstrap, Purdue, 2014, Font Awesome, Advanced Custom Fields, The Events Calendar
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+@import url('css/bootstrap.min.css');
+/* Font Awesome */
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css');
+
+@import url('https://www.purdue.edu/purdue/css/styles.css');
+
+/* WordPress CSS fixes */
+
+.maincontent a {
+	color: #a3792c;
+}
+
+.maincontent img { max-width:100%;height:auto; }
+
+/* Alignment */
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.sidenav h2.widgettitle {
+	margin-top: 0 !important;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+div.sidecontent h5.widgettitle {
+	margin-top: 0 !important;
+}
+
+div.sidenav.col-lg-3.col-md-3.col-sm-3 {
+	list-style-type: none;
+}
+
+img.attachment-single-post-thumbnail.wp-post-image {
+	width: 650px;
+	max-width: 100%;
+	height: auto;
+}
+
+.article-feature-image img {
+	width: 650px;
+	max-width: 100%;
+	height: auto;
+}
+
+ul.display-posts-listing {
+	list-style-type: none;
+	padding: 0;
+}
+
+li.listing-item {
+	clear: both;
+	margin-bottom: 90px;
+}
+
+img.attachment-thumbnail.wp-post-image {
+	float: left;
+	margin-right: 5px;
+}
+
+blockquote.alignleft,
+figure.wp-caption.alignleft,
+img.alignleft {
+	margin: 7px 24px 7px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 7px 14px 7px 0;
+}
+
+blockquote.alignright,
+figure.wp-caption.alignright,
+img.alignright {
+	margin: 7px 0 7px 24px;
+}
+
+.wp-caption.alignright {
+	margin: 7px 0 7px 14px;
+}
+
+blockquote.aligncenter,
+img.aligncenter,
+.wp-caption.aligncenter {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.site-content blockquote.alignleft,
+.site-content blockquote.alignright {
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding-top: 17px;
+	width: 50%;
+}
+
+.site-content blockquote.alignleft p,
+.site-content blockquote.alignright p {
+	margin-bottom: 17px;
+}
+
+.sidecontent ol.hfeed.vcalendar {
+	padding: 0;
+}
+
+ol.hfeed.vcalendar {
+	list-style-type: none;
+	padding: 20px;
+}
+
+.rsswidget img {
+	float: right;
+}
+
+.tab-pane h2 {
+	font-size: 16px;
+	padding: 0 15px;
+	margin-bottom: 0;
+}
+
+.comments-area input { max-width:100%; }
+.comments-area textarea { max-width:100%; }
